@@ -1,0 +1,28 @@
+footer {
+  display: inline-flex;
+  height: 25vh;
+  padding: 0 0 0 15px;
+
+  box-shadow: -1px -2px 12px -3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px -2px 12px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px -2px 12px -3px rgba(0, 0, 0, 0.3);
+}
+
+.recommended-films,
+.recommended-films > p,
+.recommended-films > div {
+  display: inline-block;
+}
+
+.recommended-films > p,
+.recommended-films {
+  width: 99%;
+}
+
+.recommended-films > div img {
+  height: 6vw;
+  width: auto;
+  border: 1px solid green;
+  margin: 0 5px;
+  border-radius: 4px;
+}

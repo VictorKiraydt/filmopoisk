@@ -1,0 +1,135 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 36px;
+  width: 100%;
+  margin-bottom: 4px;
+  padding: 0 0 2px 0;
+
+  box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  flex: 99;
+}
+
+header input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  color: #000;
+  font-size: 100%;
+
+  background: #ededed
+    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat
+    9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 100px;
+
+  border-radius: 10em;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+header input[type="search"]:hover,
+header input[type="search"]:focus {
+  width: 80%;
+  background-color: #fff;
+  border-color: #333333;
+  outline: none;
+}
+
+.auth-btn {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.auth-btn a {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  width: 150px;
+  line-height: 35px;
+  padding: 0 15px 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.87em;
+}
+
+.auth-btn button {
+  width: 80px;
+}
+
+.auth-btn button,
+.auth-btn a {
+  height: 36px;
+  border: none;
+  background: none;
+  color: #999;
+}
+
+.auth-btn button:hover,
+.auth-btn a:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.auth-btn button:focus,
+.auth-btn button:active {
+  outline: none;
+}
+
+.auth-btn button:active,
+.auth-btn a:active {
+  color: #000;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 680px) {
+  header {
+    display: inline-block;
+    text-align: center;
+    margin: 15px 0;
+
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+
+  header input[type="search"],
+  header input[type="search"]:hover,
+  header input[type="search"]:focus {
+    width: 90%;
+    height: 20px;
+    margin: 0 0 15px 0;
+  }
+
+  .auth-btn {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 3px;
+    /* border-bottom: 0.5px solid #999; */
+
+    box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.3);
+  }
+
+  .auth-btn button,
+  .auth-btn a {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    height: 36px;
+    margin: 0;
+  }
+}

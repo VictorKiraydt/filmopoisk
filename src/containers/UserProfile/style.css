@@ -1,0 +1,81 @@
+h3 {
+  text-align: center;
+}
+
+.user-data,
+.user-data .avatar,
+.user-data .user-info,
+.user-films,
+.film,
+.film-poster,
+.film-info {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.user-data {
+  display: block;
+  width: 415px;
+  margin: 0 auto;
+}
+
+.user-films,
+.film {
+  width: 100%;
+}
+
+.film {
+  margin: 5px 0;
+}
+
+.user-data .avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.user-data .user-info {
+  width: 200px;
+  padding: 0 30px;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.user-films {
+  margin-top: 30px;
+}
+
+.film-poster {
+  width: 300px;
+  height: auto;
+}
+
+.film-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.film-poster img:hover,
+.film-info > p a:hover {
+  opacity: 0.7;
+}
+
+.film-info {
+  width: calc(100% - 450px);
+  padding: 0 30px;
+  vertical-align: top;
+}
+
+.film-info > p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.film-info .popularity {
+  text-align: left;
+}

@@ -1,0 +1,6 @@
+userId,avatar,email,userName,password
+1,https://s3.amazonaws.com/uifaces/faces/twitter/cherif_b/128.jpg,test@test.test,TestUserName,18015
+2,https://s3.amazonaws.com/uifaces/faces/twitter/artem_kostenko/128.jpg,test2@test2.test,TestUserNamel4,41300
+3,https://s3.amazonaws.com/uifaces/faces/twitter/jayphen/128.jpg,victorkiraydt@yahoo.com,Victor,41300
+4,https://s3.amazonaws.com/uifaces/faces/twitter/adammarsbar/128.jpg,test3@test3.test,test3,41300
+5,https://s3.amazonaws.com/uifaces/faces/twitter/iamjdeleon/128.jpg,test4@test4.test,test4,41300

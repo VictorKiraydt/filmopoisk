@@ -1,0 +1,38 @@
+{
+  "server": {
+    "port": 5000,
+    "resources": {
+      "links": "../../resources/links.csv",
+      "movies": "../../resources/movies.csv",
+      "ratings": "../../resources/ratings.csv",
+      "tags": "../../resources/tags.csv",
+      "users": "../../resources/users.csv"
+    },
+    "constants": {
+      "MAX_FILMS_COUNT": 1000,
+      "MAX_USERS_COUNT": 1000
+    },
+    "filmGenres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children's",
+      "Comedy",
+      "Crime",
+      "Documentary",
+      "Drama",
+      "Fantasy",
+      "Film-Noir",
+      "Horror",
+      "Musical",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "War",
+      "Western",
+      "(no genres listed)"
+    ],
+    "tmdbApiKey": "4d1f6403951de145e299130edf97532a"
+  }
+}
